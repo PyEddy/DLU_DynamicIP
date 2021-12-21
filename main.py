@@ -1,4 +1,3 @@
-import socket
 import netifaces as ni
 
 
@@ -12,7 +11,6 @@ def getIP():
         print("Error: Couldn't find eth0 interface")
         print("Make sure to read the README.md before using this tool")
         exit()
-
 
 
 def readAuth(ip_address):
