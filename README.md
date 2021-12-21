@@ -10,4 +10,14 @@ This is built mainly for WSL2 users
     
 # How to use
 
-Place the main.py file in DarkflameServer/build where your config files are located then run the script
+Place the main.py file in DarkflameServer/build where your config files are located
+ #### It should look like this
+      authconfig.ini
+      chatconfig.ini
+      masterconfig.ini
+      main.py
+      
+ #### How to run the script
+      Run this in the WSL2 terminal (make sure you are in your build directory)
+      
+      python3 main.py
